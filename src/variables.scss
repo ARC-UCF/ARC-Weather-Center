@@ -15,6 +15,13 @@ $medium-gray: #3c3c3c;
 $lighter-gray: #424242;
 $light-gray: #4f4f4f;
 
+$gold-accent: #ffff5a;
+$gold-dim-accent: #bcbc4f;
+$gold-pale: #dada8d;
+$gold-border: rgba(203, 203, 84, 0.05);
+$gold-ghost: rgba(235, 255, 59, 0.1);
+$gold-border-hi: rgba(235, 255, 59, 0.35);
+
 $status-green: #78ff6b;
 $status-yellow: #f5ff6b;
 $status-orange: #ffcc4c;
@@ -33,5 +40,6 @@ $navbar-height: 40px;
     color-scheme: dark;
     --font-body: "Geist", system-ui, -apple-system, sans-serif;
     --font-title: "Playfair Display", Georgia, serif;
+    --font-info: "Geist Mono", system-ui, -apple-system, sans-serif;
     font-family: var(--font-body);
 }
