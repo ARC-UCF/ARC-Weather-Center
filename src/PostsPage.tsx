@@ -277,7 +277,9 @@ export default function PostsPage() {
                             ))}
                         </div>
                     )}
-                    <Content />
+                    <div className="text_container">
+                        <Content />
+                    </div>
                 </article>
     )
 }

@@ -64,7 +64,7 @@ export default function PostCard({ metadata }: Props) {
                 </div>
             )}
 
-            <button className="cta-button" onClick={() => navigate(`/post/${metadata.slug}`)}>Read Post</button>
+            <a className="cta-button" href={`/post/${metadata.slug}`}>Read Post</a>
         </div>
     )
 }
