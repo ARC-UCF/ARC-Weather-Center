@@ -1,5 +1,5 @@
 import './App.scss';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 interface Props {
     metadata: any;
@@ -22,7 +22,6 @@ const severityColors = {
 } as const;
 
 export default function PostCard({ metadata }: Props) {
-    const navigate = useNavigate();
 
     return(
         <div className="head-bar">
@@ -64,7 +63,7 @@ export default function PostCard({ metadata }: Props) {
                 </div>
             )}
 
-            <a className="cta-button" href={`/post/${metadata.slug}`}>Read Post</a>
+            <Link className="cta-button" to={`/post/${metadata.slug}`}>Read Post</Link>
         </div>
     )
 }
