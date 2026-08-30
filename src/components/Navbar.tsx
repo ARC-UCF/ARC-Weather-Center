@@ -7,7 +7,7 @@ export default function Navbar() {
                 <Link to="/">Home</Link>
                 <Link to="/info">Info</Link>
             </ul>
-            <p>ARC Weather Center v1.7.4</p>
+            <p>ARC Weather Center v1.7.5</p>
         </nav>
     );
 }
